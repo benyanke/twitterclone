@@ -2,9 +2,6 @@
     Options -MultiViews
 
     RewriteEngine On
-    # TODO: add an exception for assets dir
     RewriteRule ^assets - [L,NC] 
-#    RewriteCond %{REQUEST_FILENAME} !-d
-#    RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ app.php [QSA,L]
 </IfModule>
