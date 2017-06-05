@@ -1,0 +1,135 @@
+/***********************/
+/* General Style for both login and content */
+/***********************/
+
+body {
+	background: #eee !important;
+}
+.wrapper {
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+/***********************/
+/* Login Dialog Style  */
+/***********************/
+
+.form-signin {
+	max-width: 380px;
+	padding: 15px 35px 45px;
+	height: 380px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.form-signin .form-signin-heading, .form-signin .checkbox {
+	margin-bottom: 30px;
+}
+.form-signin .checkbox {
+	font-weight: normal;
+}
+.form-signin .form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	margin-top: 5px;
+}
+.form-signin .error {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	padding: 15px;
+	margin-top: 90px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.form-signin .btn {
+	margin-top: 30px;
+}
+.form-signin .error {
+	width: 100%;
+	margin-top: 30px;
+	float: right;
+}
+#login {
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+/**********************/
+/* Main Content Block */
+/**********************/
+
+.new-tweet {
+	padding-bottom: 60px;
+}
+.new-tweet textarea {
+	margin-bottom: 20px;
+}
+.new-tweet .charcount {
+	width: 120px;
+	float: left;
+}
+.new-tweet button {
+	width: 120px;
+	float: right;
+}
+.new-tweet .error {
+	width: 100%;
+	margin-top: 30px;
+	float: right;
+	display: none;
+}
+.new-tweet h2.tweet-form-heading {
+	font-size: 130%;
+	text-align: center;
+}
+#maincontent {
+	max-width: 500px;
+	padding: 15px 35px 45px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.1)
+}
+#maincontent .title {
+	text-align: center;
+	padding-top: 30px;
+}
+a.logout {
+	width: 120px;
+	float: right;
+}
+#tweetform {
+	padding-bottom: 40px;
+}
+.tweet {
+	padding-top: 30px;
+	border-bottom: 1px #AAA solid;
+	clear: both;
+	padding-bottom: 40px;
+	height: 110px;
+}
+.tweet .author {
+	width: 80px;
+	display: block;
+	float: left;
+	padding-right: 20px;
+	top: -15px;
+	position: relative;
+}
+.tweet .author img {
+	max-width: 100%;
+}
+.tweet .author .name {
+	float: left;
+	font-weight: bold;
+}
+.tweet .timestamp {
+	float: right;
+	font-style: italic;
+	color: #AAA;
+	padding: 10px;
+}

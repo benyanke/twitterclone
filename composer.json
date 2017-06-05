@@ -1,0 +1,25 @@
+{  
+   "name":"benyanke/twitterclone",
+   "description":"A simple single-user twitter clone, written in PHP.",
+   "license":"GPLv3",
+   "authors":[  
+      {  
+         "name":"Ben Yanke",
+         "email":"ben@benyanke.com"
+      }
+   ],
+   "minimum-stability":"dev",
+   "require":{  
+      "silex/silex":"~2.0",
+      "doctrine/dbal":"~2.2"
+   },
+   "autoload":{  
+      "classmap":[  
+         "src/Classes/",
+         "src/ProviderFiles/"
+      ],
+      "psr-4":{  
+         "ProviderFiles\\":"src/"
+      }
+   }
+}
